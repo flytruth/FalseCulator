@@ -1,8 +1,11 @@
 import tkinter as tk
 
+button_values = 
+     ["C", "+/-, "%", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", ",", "=", "x"]
+
 root = tk.Tk()
 
-root.title("Calculator")
+root.title("FalseCulator")
 window_width = 400
 window_height = 300
 
@@ -18,4 +21,117 @@ root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 
 root.attributes('-alpha',0.1)
 
-root.mainloop()    
+root.configure(bg='#075b4d')
+
+button = tk.Button(
+root, 
+text = "C",
+activebackground = "yellow",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "1",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+
+button = tk.Button(
+root, 
+text = "2",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "3",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "4",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "5",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "6",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "7",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "8",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+button = tk.Button(
+root, 
+text = "9",
+activebackground = "green",
+padx=5,
+pady=5,
+width=5,
+wraplength=100)
+
+button.pack(padx=5, pady=5)
+
+root.mainloop()     
