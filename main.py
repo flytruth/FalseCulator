@@ -32,6 +32,10 @@ else:
 
 # input field (part)
 
+# Button
+tk.Button(window, text="Click me to Greet", command=lambda:
+    greet("Hello User"), bd=5, fg="blue", font="calibre 18 bold").pack()
+
 input_frame = tk.Frame(master = window)
 entry = tk.Entry(master = input_frame)
 button = tk.Button(master = input_frame, text = "Calculate", command = print(operator))
