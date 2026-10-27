@@ -4,7 +4,7 @@
 
 <img width="594" height="319" alt="ApexShot-2026-10-27_20-38-41" src="https://github.com/user-attachments/assets/2b505624-45a7-4702-9492-23d49530f438" />    
 
-<img width="594" height="319" src="[https://github.com/user-attachments/assets/2b505624-45a7-4702-9492-23d49530f438](https://img.shields.io/badge/status-broken-red)" />
+[<img width="594" height="319" src="[https://github.com/user-attachments/assets/2b505624-45a7-4702-9492-23d49530f438](https://img.shields.io/badge/status-broken-red)" />](https://img.shields.io/badge/status-broken-red)
 https://img.shields.io/badge/accuracy-0%25-orange
 https://img.shields.io/badge/vibes-immaculate-brightgreen
 https://img.shields.io/badge/made%20with-Tkinter%20%26%20Regret-blue
