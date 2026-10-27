@@ -18,7 +18,7 @@ window.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 
 window.attributes('-alpha',0.1)
 
-tittle_label = tk.Label(master = window, text = "My Mind is Broken", font = 'Calibri 22')
+tittle_label = tk.Label(master = window, text = "My Mind is Broken", font = 'Calibri 24') # i don't know why, but lower number for size of the text, is not working!
 tittle_label.pack()
 
 window.configure(bg='#075b4d')
