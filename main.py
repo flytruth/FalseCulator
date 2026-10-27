@@ -26,8 +26,9 @@ tittle_label.pack()
 input_frame = tk.Frame(master = window)
 entry = tk.Entry(master = input_frame)
 button = tk.Button(master = input_frame, text = "Calculate")
-
-
+entry.pack() 
+button.pack()
+input_frame.pack()
 
 window.configure(bg='#075b4d')
 
