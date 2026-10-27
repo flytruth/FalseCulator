@@ -1,8 +1,5 @@
 import tkinter as tk
 
-button_values = 
-     ["C", "+/-, "%", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", ",", "=", "x"]
-
 root = tk.Tk()
 
 root.title("FalseCulator")
