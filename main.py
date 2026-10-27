@@ -18,6 +18,9 @@ root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 
 root.attributes('-alpha',0.1)
 
+tittle_label = tk.Label(master = window, text = "My Mind is Broken", font = 'Calibri 24')
+tittle_label.pack()
+
 root.configure(bg='#075b4d')
 
 button = tk.Button(
