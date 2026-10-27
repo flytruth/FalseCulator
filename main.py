@@ -18,8 +18,16 @@ window.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 
 window.attributes('-alpha',0.1)
 
-tittle_label = tk.Label(master = window, text = "My Mind is Broken", font = 'Calibri 24') # i don't know why, but lower number for size of the text, is not working!
+tittle_label = tk.Label(master = window, text = "My Mind is Broken", font = 'Calibri 24')
 tittle_label.pack()
+
+# input field (part)
+
+input_frame = tk.Frame(master = window)
+entry = tk.Entry(master = input_frame)
+button = tk.Button(master = input_frame, text = "Calculate")
+
+
 
 window.configure(bg='#075b4d')
 
