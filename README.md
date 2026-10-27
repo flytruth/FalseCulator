@@ -4,6 +4,11 @@
 
 <img width="594" height="319" alt="ApexShot-2026-10-27_20-38-41" src="https://github.com/user-attachments/assets/2b505624-45a7-4702-9492-23d49530f438" />    
 
+![Status](https://img.shields.io/badge/status-broken-red)
+![Accuracy](https://img.shields.io/badge/accuracy-0%25-orange)
+![Vibes](https://img.shields.io/badge/vibes-immaculate-brightgreen)
+![Made with](https://img.shields.io/badge/made%20with-Tkinter%20%26%20Regret-blue)
+
 FalseCulator is a calculator built in Python with Tkinter that has one simple job: to calculate. It does not do that job.
 
 Instead, it:
