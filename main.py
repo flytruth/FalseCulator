@@ -1,10 +1,12 @@
 import tkinter as tk
+import operator
 
 window = tk.Tk()
 
 window.title("FalseCulator")
 window_width = 400
 window_height = 300
+window.resizable(False, False)
 
 # get the screen dimension
 screen_width = window.winfo_screenwidth()
@@ -18,31 +20,16 @@ window.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 
 window.attributes('-alpha',0.1)
 
-tittle_label = tk.Label(master = window, text = "My Mind is Broken", font = 'Calibri 24')
+tittle_label = tk.Label(master = window, text = "Check the console", font = 'Calibri 24')
 tittle_label.pack()
 
-num1 = input("Enter the first number")
-num2 = input("Enter the second number")
+num1 = input("Do you really want to use calculatro? Enter 123 + 1: ")
 
-if operator == "+":
-    result == num1 + num2
-    print(round(result, 3))
-    
-elif operator == "-":
-    result == num1 - num2
-    print(round(result, 3))
-    
-elif operator == "*":
-    result == num1 * num2
-    print(round(result, 3))
-    
-elif operator == "//":
-    result == num1 // num2
-    print(round(result, 3))
+if num1 == 124:
+    print("Okay")
+else:
+    print("Nope")
 
-else: 
-    print(f"[operator] is not a valid operator")
-    
 # input field (part)
 
 input_frame = tk.Frame(master = window)
@@ -164,5 +151,8 @@ width=5,
 wraplength=100)
 
 button.pack(padx=5, pady=5)
+
+text = tk.Text(window, height=5, width=40)
+text.pack()
 
 window.mainloop()
