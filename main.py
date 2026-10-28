@@ -8,6 +8,11 @@ window_width = 400
 window_height = 300
 window.resizable(False, False)
 
+def convert():
+    mile_input = entry_int.get()
+    km_output = mile_input * 1.5
+    output_string.set(km_output)
+
 # get the screen dimension
 screen_width = window.winfo_screenwidth()
 screen_height = window.winfo_screenheight()
