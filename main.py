@@ -51,6 +51,8 @@ input_frame.pack(pady = 10)
 
 window.configure(bg='#075b4d')
 
+#Starting some strange buttons stuff
+
 button = tk.Button(
 window,
 text = "C",
