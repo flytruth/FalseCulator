@@ -4,9 +4,10 @@ import operator
 window = tk.Tk()
 
 window.title("FalseCulator")
+window = tk.Window(themename = 'Darkly')
 window_width = 400
 window_height = 300
-window.resizable(False, False)
+window.resizable(True, True)
 
 def convert():
     mile_input = entry_int.get()
