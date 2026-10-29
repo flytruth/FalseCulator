@@ -33,9 +33,8 @@ input_frame.pack(pady=10)
 # Number and Control Buttons
 buttons = [
     ("C", "yellow"),
-    ("1", "green"), ("2", "green"), ("3", "green"),
-    ("4", "green"), ("5", "green"), ("6", "green"),
-    ("7", "green"), ("8", "green"), ("9", "green")
+    ("1", "green"), ("2", "green"), ("3", "green")
+
 ]
 
 for (text_val, color) in buttons:
