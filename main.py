@@ -34,7 +34,7 @@ num1 = input("Do you really want to use calculatro? Enter 123 + 1: ")
 if num1 == 124:
     print("Okay")
 else:
-    close 
+    print("I guess you are a bot")
 
 # input field (part)
 
