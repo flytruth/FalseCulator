@@ -165,6 +165,7 @@ wraplength=100)
 button.pack(padx=5, pady=5)
 
 text = tk.Text(window, height=5, width=40)
+#this project is at beta for now, and will be updated soon
 text.pack()
 
 window.mainloop()
