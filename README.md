@@ -130,6 +130,8 @@ If FalseCulator made you laugh, gave you a headache, or both — give it a star!
 
     "I've never seen a calculator so confidently wrong." — every user
 
+    currently at beta
+
     "It's not a bug, it's a feature." — the developer, crying
 
     "Where's the calculator?" — someone who couldn't see the window
